@@ -13,6 +13,12 @@
 	"context_length": null,
 	"max_output_tokens": null,
 	"schema_version": "1.0.0",
+	"pricing": {
+		"@720p (per second)": 0.06,
+		"@1080p (per second)": 0.07,
+		"@540p (per second)": 0.04,
+		"Default (per second)": 0.06
+	},
 	"examples": [
 		{
 			"name": "Simple Text-to-Video",
@@ -24,6 +30,15 @@
 			},
 			"output": {
 				"video": "https://pub-04a6d208d361438ea01b797e6973bd19.r2.dev/catalog/vidu__q3-turbo/simple-text-to-video.mp4"
+			},
+			"raw_response": {
+				"state": "Completed",
+				"result": {
+					"video": "https://video.cf.vidu.com/infer_28/tasks/26/0417/05/942602832110972928/creation-01/video.mp4?response-content-disposition=attachment;filename=general-6-2026-04-17T05%3A59%3A49Z.mp4&Expires=1776491994&Signature=g25bLMItp~gReOzHLT6-vy39VztAD3PDf6sCfMv4vtzIPfXEhOebp~aDvezgYwwrF~Nj~pElyOW2Um2I~6fonXwcIdk2UY2b4oNkMjYSxDpVVYpAIsIpwsbvz5XP7avM~ks0ilSgLnHuyPmkHIXg0TocRY8eBnW97EA6l~W17qKXHF0f4iz5z~PsqaTYiqLLfB-JPJQqVD7r07Mhj-J5iAg6hKRvROAUsCwabQwvhwu~Vkd2conccguWJncMGOofGS~MhE7waoqqGrs8mms1i90n5dZpgP9yion4S17p31bEtxloIRDZaYmwHnQsCNUFdF3JSMoaWAHWpBN5p4Nmbg__&Key-Pair-Id=KNW0SL0E7LV4E"
+				},
+				"gatewayMetadata": {
+					"keySource": "Unified"
+				}
 			},
 			"code_snippets": [
 				{
@@ -43,6 +58,15 @@
 			},
 			"output": {
 				"video": "https://pub-04a6d208d361438ea01b797e6973bd19.r2.dev/catalog/vidu__q3-turbo/high-resolution.mp4"
+			},
+			"raw_response": {
+				"state": "Completed",
+				"result": {
+					"video": "https://video.cf.vidu.com/infer_44/tasks/26/0417/05/942602894400569344/creation-01/video.mp4?response-content-disposition=attachment;filename=general-6-2026-04-17T06%3A00%3A10Z.mp4&Expires=1776492019&Signature=AyyCjhkrclOhjY2FgSkZ2H6Q4T6XwLogsIQzz0RzrsOoGXwoRXqHEjml~35tETpKGRadLV30d5KZBNxE4yZQOJcbtnWlPC4v9GUjgZUYmDY-kWXeECrILqPkc6QanhbHkW1Z-CSBALgkf8BA5h3tcn4AVP18~WW6cznT0-OHHg9MEVvORBS~E4QLy4yKP8TFao-lH1hef87rWqQPU1D~sNCLGnn7Q4PQuK3y5ZwhyrwCj2643LwYYie1F8p~2rE4QyGbch3dcOMtR9XEU3Ghcto1cjf4vQl1JYRibP0J7hTDPCqj~h42I~qv7T1dVECc4jjy7IahbM1Ymnk74ZENxA__&Key-Pair-Id=KNW0SL0E7LV4E"
+				},
+				"gatewayMetadata": {
+					"keySource": "Unified"
+				}
 			},
 			"code_snippets": [
 				{
@@ -64,6 +88,15 @@
 			"output": {
 				"video": "https://pub-04a6d208d361438ea01b797e6973bd19.r2.dev/catalog/vidu__q3-turbo/portrait-video.mp4"
 			},
+			"raw_response": {
+				"state": "Completed",
+				"result": {
+					"video": "https://video.cf.vidu.com/infer_48/tasks/26/0417/05/942603057143758848/creation-01/video.mp4?response-content-disposition=attachment;filename=general-6-2026-04-17T06%3A02%3A41Z.mp4&Expires=1776492170&Signature=swmratV7QnfQojfgu8DoFALOhvDijE3KPeHklN~SzOx-LKjYFWOBncxbM1SwxmgVfC1A8FAFA3bdj217mm5wXCpPzegjcZSJ6BFDWHrl4xRv0~JMMTDkWoJ4MYBUJc03WNSRCIRNbjBW1DzzXBZ5z41VDOba7R7~o-7KgqhIx9nF3Nw0HOxNwgxi1UnyWS33OspOe19Z9rrgrPFb~V~4eAdVEv9GvE4DFmx9pyErrGGW0ICnNOfDrRiPvJYnOp8Hje55knp7Hh5cDTXCrTMqF67KjBrTG7jSFY3L52Bgef5ChPm~Y4pSUVR0qEQChyHz6IDjJ-bEqps5kRNGmf5m6w__&Key-Pair-Id=KNW0SL0E7LV4E"
+				},
+				"gatewayMetadata": {
+					"keySource": "Unified"
+				}
+			},
 			"code_snippets": [
 				{
 					"label": "typescript",
@@ -83,6 +116,15 @@
 			"output": {
 				"video": "https://pub-04a6d208d361438ea01b797e6973bd19.r2.dev/catalog/vidu__q3-turbo/extended-duration.mp4"
 			},
+			"raw_response": {
+				"state": "Completed",
+				"result": {
+					"video": "https://video.cf.vidu.com/infer_84/tasks/26/0417/06/942603162785705984/creation-01/video.mp4?response-content-disposition=attachment;filename=general-17-2026-04-17T06%3A03%3A29Z.mp4&Expires=1776492215&Signature=VTWavZAlFMOmxkw~fF0Setk4X-rJ89GjQ1kKp8uxcIZltM0zmlUYkkC5Ao71UMkbEhJwRvTFd81xzfVVbeNYd-gKP4-Tsz59rWXhJhHB114HDtbrlp17XZO~d62ZYq5CRu1I6PlEPFR~XtHqW7vEIu4W1NYwd-d-rGRhrWmv1EjdfWDL~4TuXVBgLlU8AbH~4MuVVzTLdCBSh92hS3vRqGsxgbt21tNCVWUbVElaqUiGF5oWYLwiwdp4wZIY9rmn2V46Yw-Vkn~iOaw3rfDHvsaXqRDHgJngohKV-KBkfB3bUQmImZzThmcE3hGxIkjZD5tt4VKPBNE30nSaWtWGNw__&Key-Pair-Id=KNW0SL0E7LV4E"
+				},
+				"gatewayMetadata": {
+					"keySource": "Unified"
+				}
+			},
 			"code_snippets": [
 				{
 					"label": "typescript",
@@ -101,6 +143,15 @@
 			},
 			"output": {
 				"video": "https://pub-04a6d208d361438ea01b797e6973bd19.r2.dev/catalog/vidu__q3-turbo/low-resolution-fast-preview.mp4"
+			},
+			"raw_response": {
+				"state": "Completed",
+				"result": {
+					"video": "https://video.cf.vidu.com/infer_68/tasks/26/0417/06/942603796612128768/creation-01/video.mp4?response-content-disposition=attachment;filename=general-4-2026-04-17T06%3A03%3A45Z.mp4&Expires=1776492234&Signature=pMVpkHRyPMy~NdXOjju8mD~rSHxFhwdibf6FYd76WXvJK6P2wgBCGE7UafSdCUDQlWmPZJ0puCzEfpuNSMX~MJSEPr9kzgY~rhZq9kprOaablS2NHdUE9zI1e0T~BS84AolondH28A345ZWa1Q6a1v63ha~19nGwZ6-NXED6be4kIK2820Cad~~xuBC54NzqCWJDlEgWajYNhwQk2PnnmeRwAW~U0Xj7neorIVdAIxC54BPId--8qLzS0DiDNi2lGJidJ97ZkWTK8KvKaIRnf~31BBwXOa-A9EdKzCxPyUdp9iMBN5KAXTle~cCkbp4pVSqIxAnSoSbvmieynqcn4w__&Key-Pair-Id=KNW0SL0E7LV4E"
+				},
+				"gatewayMetadata": {
+					"keySource": "Unified"
+				}
 			},
 			"code_snippets": [
 				{
@@ -126,6 +177,7 @@
 	"default_example": null,
 	"code_snippets": [],
 	"zdr": false,
+	"zdr_comment": null,
 	"schema": {
 		"input": {
 			"$schema": "https://json-schema.org/draft/2020-12/schema",

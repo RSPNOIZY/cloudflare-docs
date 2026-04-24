@@ -1,7 +1,7 @@
 {
 	"model_id": "openai/gpt-4o-transcribe",
 	"provider_id": "openai",
-	"name": "GPT-4o Transcribe",
+	"name": "gpt-4o-transcribe",
 	"description": "A speech-to-text model that uses GPT-4o to transcribe audio with improved word error rate and better language recognition compared to original Whisper models.",
 	"task": "Automatic Speech Recognition",
 	"tags": [
@@ -12,6 +12,9 @@
 	"context_length": null,
 	"max_output_tokens": null,
 	"schema_version": "1.0.0",
+	"pricing": {
+		"Per audio minute": 0.006
+	},
 	"examples": [
 		{
 			"name": "Basic Transcription",
@@ -21,6 +24,15 @@
 			},
 			"output": {
 				"text": "Hello"
+			},
+			"raw_response": {
+				"state": "Completed",
+				"result": {
+					"text": "Hello"
+				},
+				"gatewayMetadata": {
+					"keySource": "Unified"
+				}
 			},
 			"code_snippets": [
 				{
@@ -39,6 +51,15 @@
 			},
 			"output": {
 				"text": "Hello"
+			},
+			"raw_response": {
+				"state": "Completed",
+				"result": {
+					"text": "Hello"
+				},
+				"gatewayMetadata": {
+					"keySource": "Unified"
+				}
 			},
 			"code_snippets": [
 				{
@@ -59,6 +80,15 @@
 			"output": {
 				"text": "This is a technical discussion about Kubernetes and cloud-native architecture."
 			},
+			"raw_response": {
+				"state": "Completed",
+				"result": {
+					"text": "This is a technical discussion about Kubernetes and cloud-native architecture."
+				},
+				"gatewayMetadata": {
+					"keySource": "Unified"
+				}
+			},
 			"code_snippets": [
 				{
 					"label": "typescript",
@@ -76,6 +106,15 @@
 			},
 			"output": {
 				"text": "Hello, world!"
+			},
+			"raw_response": {
+				"state": "Completed",
+				"result": {
+					"text": "Hello, world!"
+				},
+				"gatewayMetadata": {
+					"keySource": "Unified"
+				}
 			},
 			"code_snippets": [
 				{
@@ -99,6 +138,7 @@
 	"default_example": null,
 	"code_snippets": [],
 	"zdr": false,
+	"zdr_comment": null,
 	"schema": {
 		"input": {
 			"$schema": "https://json-schema.org/draft/2020-12/schema",
